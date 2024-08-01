@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Kotak{
+    background: url(GENSHIN.jpg);
+    background-size: cover ;
+    height: 100vh;
+    width: auto;
+    
+}
+
+label.logo{
+    color: white;
+    font-size: 80px;
+    padding: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+.bar {
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    opacity: .5;
+}
+.bar ul{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.bar ul li{
+    list-style: none;
+    margin: 10px 8px;
+    display: inline-block;
+    line-height: 80px;
+
+}
+.bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.bar ul li a.active,
+.bar ul li a:hover{
+    background: red;
+    border-radius: 2px dashed;
+}
+.Kotak .center{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color : white;
+    font-size: 70px ;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-right: 50px;
+}
+.center h2{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
